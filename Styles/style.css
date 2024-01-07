@@ -1,6 +1,18 @@
-header figure {
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins&display=swap");
+
+header {
   margin: 50px 140px 0 140px;
 }
-header figure img {
-  width: 100%;
+header h4 {
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+}
+header h2 {
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
 }
