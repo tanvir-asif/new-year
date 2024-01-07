@@ -4,6 +4,10 @@
   margin: 0;
   padding: 0;
 }
+main {
+  width: 1320px;
+  margin: auto;
+}
 header {
   margin: auto;
   margin-top: 50px;
@@ -19,7 +23,6 @@ header .text {
   position: relative;
   width: 632px;
   height: 246px;
-  top: 175px;
   z-index: 2;
   text-align: center;
   font-family: Merriweather;
@@ -37,7 +40,6 @@ header h2 {
   border-radius: 16px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
   z-index: 1;
-  width: 1320px;
   height: 600px;
   margin: auto;
 }
@@ -72,7 +74,6 @@ header h2 {
 
 .party {
   background-image: url(/resources/Vectorrr.png);
-  width: 1320px;
   height: 600px;
   margin: auto;
   margin-top: 120px;
@@ -111,6 +112,7 @@ header h2 {
   background-color: transparent;
   margin-top: 48px;
   text-decoration: none;
+  font-family: Inter;
 }
 .background img {
   margin: 68px 0;
@@ -122,11 +124,165 @@ header h2 {
 .place {
   margin: auto;
   margin-top: 120px;
-  width: 1320px;
   height: 482px;
-  background-color: linear-gradient(
-    180deg,
-    rgba(255, 0, 0, 0.1) 0%,
-    rgba(255, 0, 0, 0) 100%
-  );
+  background-image: url(/resources/gradient.png);
+}
+.place div {
+  width: 549px;
+  height: 272px;
+  padding: 100px 385px;
+  text-align: center;
+}
+.place p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+.place span {
+  color: #f00;
+}
+.place button {
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  border-radius: 8px;
+  background: #f00;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+}
+.offer {
+  height: 462px;
+  margin: auto;
+  margin-top: 120px;
+  display: flex;
+}
+.offer h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.offer h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 16px;
+}
+.offer p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 22px;
+}
+.offer #one {
+  width: 393px;
+  margin: 140px 0;
+  margin-right: 70px;
+}
+#two {
+  width: 462px;
+  height: 462px;
+  border: #f00 solid 10px;
+  border-radius: 50%;
+}
+#two img {
+  margin: 49.08px;
+}
+#three {
+  margin-left: 118px;
+  width: 276px;
+}
+#three h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  margin-top: 112px;
+}
+#three img {
+  width: 140px;
+  height: 140px;
+  margin-top: 43px;
+}
+.sale {
+  margin: auto;
+  margin-top: 120px;
+}
+.sale .upper {
+  text-align: center;
+  margin: 0 126px;
+}
+.upper p {
+  width: 1036px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.upper h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 28px;
+}
+.upper span {
+  color: #f00;
+}
+.upper h4 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.lower {
+  width: 1320px;
+  height: 662.07px;
+  margin-top: 64px;
+  position: absolute;
+}
+.lower .box {
+  width: 796.463px;
+  height: 662.07px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.lower .rightImg {
+  width: 429px;
+  height: 433px;
+  position: relative;
+  bottom: 229px;
+  right: 0;
+}
+.lower .rectangle {
+  width: 1320px;
+  height: 229px;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  z-index: -1;
+}
+.lower .circle {
+  position: absolute;
+  bottom: 0;
+  right: 375px;
+  top: 75px;
+}
+.portfolio {
 }
