@@ -119,7 +119,6 @@ header h2 {
   margin: auto;
   margin-top: 120px;
   height: 482px;
-  background-color: url("resources/gradient.png");
 }
 .place div {
   width: 549px;
@@ -277,4 +276,98 @@ header h2 {
   bottom: 0;
   right: 375px;
   top: 75px;
+}
+.portfolio {
+  margin-top: 846px;
+}
+.portfolio .text h5 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.text h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 16px;
+}
+.text p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 32px; /* 160% */
+  width: 890px;
+  margin-top: 22px;
+  margin-bottom: 48px;
+}
+.portfolio .images {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+}
+.portfolio .images img {
+  width: 424px;
+  height: 450px;
+}
+.portfolio .images img:hover {
+  transform: scale(1.1);
+  filter: brightness(110%);
+}
+
+.newsletter {
+  border-radius: 16px;
+  background-color: rgba(255, 0, 0, 0.05);
+  margin-top: 120px;
+  text-align: center;
+  padding: 80px 0;
+}
+.newsletter h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 40px;
+}
+.newsletter p {
+  margin-top: 22px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 32px;
+  padding: 0 212px;
+}
+form {
+  margin-top: 48px;
+}
+.newsletter form input[type="button"] {
+  border-radius: 0 50px 50px 0;
+  border: none;
+  width: 210px;
+  height: 72px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #f00;
+}
+form input[type="email"] {
+  width: 648px;
+  height: 72px;
+  color: rgba(7, 2, 17, 0.3);
+  text-align: left;
+  padding-left: 30px;
+  font-family: Inter;
+  font-size: 18px;
+  width: 438px;
+  height: 72px;
+  border-radius: 50px 0 0 50px;
+  border: none;
+}
+
+footer {
+  margin-top: 120px;
+  width: 100svw;
 }
