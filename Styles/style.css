@@ -11,7 +11,7 @@ main {
 header {
   margin: auto;
   margin-top: 50px;
-  background-image: url("resources/Banner Image.png");
+  background-image: url("/resources/Banner\ Image.png");
   background-position: center;
   background-repeat: no-repeat;
   width: 1320px;
@@ -36,13 +36,13 @@ header h2 {
   font-weight: 900;
   line-height: 95px;
 }
-/* .background {
+.background {
   border-radius: 16px;
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%); */
   z-index: 1;
   height: 600px;
   margin: auto;
-} */
+}
 
 .discount {
   text-align: center;
@@ -93,7 +93,7 @@ header h2 {
   margin-left: 126px;
   margin-top: 126px;
 }
-/* .party p {
+.party p {
   font-size: 18px;
   color: rgba(255, 255, 255, 0.8);
   line-height: 30px;
@@ -101,7 +101,7 @@ header h2 {
   width: 697px;
   margin-top: 24px;
   margin-bottom: 48px;
-} */
+}
 .party a {
   margin-left: 158px;
   margin-bottom: 142px;
@@ -118,9 +118,9 @@ header h2 {
   margin: 68px 0;
   margin-right: 138px;
 }
-.party .background {
+/* .party .background {
   fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
-}
+} */
 .place {
   margin: auto;
   margin-top: 120px;
