@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
 header {
   margin: auto;
+  margin-top: 50px;
   background-image: url("/resources/Banner Image.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -14,22 +19,17 @@ header .text {
   position: relative;
   width: 632px;
   height: 246px;
-  top: 177px;
+  top: 175px;
   z-index: 2;
+  text-align: center;
+  font-family: Merriweather;
 }
 header h4 {
-  text-align: center;
-  font-family: Merriweather;
   font-size: 32px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 header h2 {
-  text-align: center;
-  font-family: Merriweather;
   font-size: 72px;
-  font-style: normal;
   font-weight: 900;
   line-height: 95px;
 }
@@ -40,4 +40,93 @@ header h2 {
   width: 1320px;
   height: 600px;
   margin: auto;
+}
+
+.discount {
+  text-align: center;
+  font-family: Inter;
+  color: #f00;
+  margin-top: 120px;
+}
+.discount h2 {
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.discount h4 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.discount h3 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.discount img {
+  margin: auto;
+  display: flex;
+  align-self: center;
+}
+
+.party {
+  background-image: url(/resources/Vectorrr.png);
+  width: 1320px;
+  height: 600px;
+  margin: auto;
+  margin-top: 120px;
+  color: #ffffff;
+}
+.background {
+  display: flex;
+  background-repeat: no-repeat;
+  align-self: center;
+}
+.party h2 {
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  width: 642px;
+  margin-left: 126px;
+  margin-top: 126px;
+}
+.party p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 30px;
+  margin-left: 126px;
+  width: 697px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.party a {
+  margin-left: 158px;
+  margin-bottom: 142px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: transparent;
+  margin-top: 48px;
+  text-decoration: none;
+}
+.background img {
+  margin: 68px 0;
+  margin-right: 138px;
+}
+.party .background {
+  fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+}
+.place {
+  margin: auto;
+  margin-top: 120px;
+  width: 1320px;
+  height: 482px;
+  background-color: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
 }
