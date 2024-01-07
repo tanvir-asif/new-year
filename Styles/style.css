@@ -356,18 +356,67 @@ form {
 form input[type="email"] {
   width: 648px;
   height: 72px;
-  color: rgba(7, 2, 17, 0.3);
-  text-align: left;
-  padding-left: 30px;
-  font-family: Inter;
-  font-size: 18px;
-  width: 438px;
-  height: 72px;
   border-radius: 50px 0 0 50px;
   border: none;
+  padding-left: 30px;
+}
+input ::placeholder {
+  color: rgba(7, 2, 17, 0.3);
+  text-align: left;
+  font-family: Inter;
+  font-size: 18px;
 }
 
 footer {
   margin-top: 120px;
-  width: 100svw;
+  width: 99svw;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  background-color: #070211;
+  height: 609px;
+}
+.address {
+  width: 375px;
+  height: 80px;
+}
+footer > .first {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 140px;
+  padding-right: 275px;
+  padding-top: 120px;
+}
+.phone,
+.website {
+  display: flex;
+}
+footer .first img {
+  margin-right: 16px;
+  width: 24px;
+}
+footer > .second {
+  margin: 80px 0;
+  display: flex;
+  justify-content: center;
+}
+footer > .third {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 140px 120px 140px;
+}
+footer > .second > img {
+  width: 64px;
+  margin: 12px;
+}
+footer .unsubscribe a {
+  text-decoration: none;
+  color: #fff;
 }
